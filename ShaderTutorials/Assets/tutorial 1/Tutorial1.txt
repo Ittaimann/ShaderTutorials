@@ -10,7 +10,7 @@ shaders, as surface shaders are essentially vertex shaders where the lighting ha
 Looking at each in the scene or game view you will notice that the vertex shader sphere (named vertex) is completely white, and does 
 not react to the change in lighting. This is because we haven't made it react yet to lighting (something we will probably cover later).
 Looking at its material editor we see only one variable that is changeable and the tiling/offset controls (disregard render queue for now). 
-Drag the bricks file into the "texture" box. This is the only thing that the vertex shader (our vertex shader can do currently).
+Drag the bricks file into the "texture" box. This is the only thing that the vertex shader (our vertex shader) can do currently.
 Try applying the bricks texture to the surface shader sphere and mess around with the sliders and control controls. Notice how the 
 sphere changes in reaction to these changes, also play the scene and watch the changes in reaction to lighting.
 
@@ -21,5 +21,9 @@ Finally look at the two shader files that are in the unity project, you don't ne
 of the differences from the syntax in these files, and the syntax of python,c#, or c++. There should be some very noticeable and maybe
 even startling differences that will be covered in the next tutorial. 
 
+Also you might see online the idea of a geometry shader. This is essentially a shader that takes the geometry of the object into account
+as input and lets us manipulate the geometry during the rendering process. To be honest this concept is beyond the scope of what we will
+most likely be doing (I also don't entirely understand it currently). Try to apply this shader to a material and see what it does.
+ 
 This concludes tutorial one. 
 
