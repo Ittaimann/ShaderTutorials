@@ -1,4 +1,4 @@
-
+// originally pulled from http://www.shaderslab.com/demo-90---flat-shading.html this is an excellent resource which I higly recommend
 Shader "Tutorial1/flatShading"
 {
     Properties
