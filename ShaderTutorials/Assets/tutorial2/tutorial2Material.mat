@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: basicVertex
-  m_Shader: {fileID: 4800000, guid: 555b4074874072c49bf019cacfd32a26, type: 3}
+  m_Name: tutorial2Material
+  m_Shader: {fileID: 4800000, guid: ddb473e9560b72941b3f670ce59c0ba8, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -71,8 +71,7 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _darkness: 0.215
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Tint: {r: 0, g: 0, b: 0, a: 0}
+    - _Tint: {r: 0, g: 0.17241383, b: 1, a: 0}
