@@ -1,0 +1,6 @@
+less cursing,
+set up unity (proper layout) and vs code ahead of time
+Have a tutorial for editing the vertex shader at the end.
+less ramble
+Choose certain parts of the pictures to talk about in terms of shaders.
+. 
